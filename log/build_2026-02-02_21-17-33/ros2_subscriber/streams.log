@@ -1,0 +1,66 @@
+[0.043s] Invoking command in '/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78 -DCMAKE_INSTALL_PREFIX=/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber
+[2.423s] -- The C compiler identification is GNU 13.3.0
+[3.089s] -- The CXX compiler identification is GNU 13.3.0
+[3.239s] -- Detecting C compiler ABI info
+[3.600s] -- Detecting C compiler ABI info - done
+[3.621s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.622s] -- Detecting C compile features
+[3.623s] -- Detecting C compile features - done
+[3.679s] -- Detecting CXX compiler ABI info
+[3.882s] -- Detecting CXX compiler ABI info - done
+[3.902s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.903s] -- Detecting CXX compile features
+[3.904s] -- Detecting CXX compile features - done
+[4.115s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.919s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.785s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[6.348s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[6.551s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.697s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.746s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[8.620s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[8.749s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[8.801s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.420s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[9.551s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.148s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.172s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.172s] -- Configured cppcheck include dirs: 
+[10.173s] -- Configured cppcheck exclude dirs and/or files: 
+[10.188s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.188s] -- Configured cpplint exclude dirs and/or files: 
+[10.210s] -- Added test 'lint_cmake' to check CMake code style
+[10.258s] -- Added test 'uncrustify' to check C / C++ code style
+[10.258s] -- Configured uncrustify additional arguments: 
+[10.293s] -- Added test 'xmllint' to check XML markup files
+[10.300s] -- Configuring done (9.7s)
+[10.320s] -- Generating done (0.0s)
+[10.331s] -- Build files have been written to: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber
+[10.351s] Invoked command in '/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78 -DCMAKE_INSTALL_PREFIX=/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber
+[10.354s] Invoking command in '/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber -- -j4 -l4
+[10.461s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[28.374s] [100%] [32m[1mLinking CXX executable subscriber_node[0m
+[30.078s] [100%] Built target subscriber_node
+[30.101s] Invoked command in '/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber -- -j4 -l4
+[30.121s] Invoking command in '/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber
+[30.139s] -- Install configuration: ""
+[30.139s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/lib/ros2_subscriber/subscriber_node
+[30.149s] -- Set non-toolchain portion of runtime path of "/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/lib/ros2_subscriber/subscriber_node" to ""
+[30.149s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ament_index/resource_index/package_run_dependencies/ros2_subscriber
+[30.149s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ament_index/resource_index/parent_prefix_path/ros2_subscriber
+[30.150s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/environment/ament_prefix_path.sh
+[30.150s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/environment/ament_prefix_path.dsv
+[30.150s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/environment/path.sh
+[30.150s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/environment/path.dsv
+[30.151s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/local_setup.bash
+[30.151s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/local_setup.sh
+[30.151s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/local_setup.zsh
+[30.151s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/local_setup.dsv
+[30.152s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/package.dsv
+[30.152s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ament_index/resource_index/packages/ros2_subscriber
+[30.152s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/cmake/ros2_subscriberConfig.cmake
+[30.153s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/cmake/ros2_subscriberConfig-version.cmake
+[30.153s] -- Installing: /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/install/ros2_subscriber/share/ros2_subscriber/package.xml
+[30.156s] Invoked command in '/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber

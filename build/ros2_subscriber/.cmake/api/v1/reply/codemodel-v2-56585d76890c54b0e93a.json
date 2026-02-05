@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e3576919192c1608a4c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_subscriber",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_subscriber_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_subscriber_uninstall-1ac08737bb05fb8a3ca5.json",
+					"name" : "ros2_subscriber_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber_node-3178d980887013d81f20.json",
+					"name" : "subscriber_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bb5a1c104124d2263f1e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78/build/ros2_subscriber",
+		"source" : "/home/shree-santh/assignment-ros2-c-subscriber-node-shreesanth-78"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
